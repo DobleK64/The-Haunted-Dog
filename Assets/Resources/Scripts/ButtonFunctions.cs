@@ -2,26 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Build.Content;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonFunctions : MonoBehaviour
 {
-    [SerializeField] private GameObject pauseButton, pauseMenu;
-
-    public static ButtonFunctions instance;
-    private void Awake()
-    {
-        //Singleton
-        if (!instance)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-
 
 
     #region PauseMenu
@@ -29,16 +13,19 @@ public class ButtonFunctions : MonoBehaviour
     public void Pause()
     {
         Time.timeScale = 0f;
-        pauseButton.SetActive(false);
-        pauseMenu.SetActive(true);
     }
 
     public void Resume()
     {
         Time.timeScale = 1f;
-        pauseButton.SetActive(true);
-        pauseMenu.SetActive(false);
     }
+
+    public void Restart()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 
     #endregion
 
@@ -51,6 +38,7 @@ public class ButtonFunctions : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
+        Time.timeScale = 1f;
         GameManager.instance.LoadScene(sceneName);
     }
 }

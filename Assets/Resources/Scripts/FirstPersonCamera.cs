@@ -12,7 +12,7 @@ public class FirstPersonCamera : MonoBehaviour
  
     private void Start()
     {
-        //Solo hasta que pueda pausar sin boton
+        //Quitado temporalmente
         //Cursor.lockState = CursorLockMode.Locked; //Desaparece el cursor
     }
 
