@@ -18,12 +18,14 @@ public class ButtonFunctions : MonoBehaviour
     public void Resume()
     {
         Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void Restart()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
@@ -40,5 +42,6 @@ public class ButtonFunctions : MonoBehaviour
     {
         Time.timeScale = 1f;
         GameManager.instance.LoadScene(sceneName);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }

@@ -12,8 +12,7 @@ public class FirstPersonCamera : MonoBehaviour
  
     private void Start()
     {
-        //Quitado temporalmente
-        //Cursor.lockState = CursorLockMode.Locked; //Desaparece el cursor
+        Cursor.lockState = CursorLockMode.Locked; //Desaparece el cursor
     }
 
     // Update is called once per frame

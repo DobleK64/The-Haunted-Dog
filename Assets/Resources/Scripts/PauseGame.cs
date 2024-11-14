@@ -11,8 +11,9 @@ public class PauseGame : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Time.timeScale = 0f;
+            Time.timeScale = 1f;
             pauseMenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
             pentagrams.SetActive(false);
         }
     }
