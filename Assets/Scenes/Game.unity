@@ -1765,7 +1765,7 @@ PrefabInstance:
     - target: {fileID: -3462074805757642524, guid: b4b3f61e9adb2634bb26f2577e3527c9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: cc77cb2d062fca940a2d9213dc837f03, type: 2}
+      objectReference: {fileID: 2100000, guid: ac69f9a7b307e244d8a400c61ba51b76, type: 2}
     - target: {fileID: -49273074270887334, guid: b4b3f61e9adb2634bb26f2577e3527c9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1778,14 +1778,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: WalkieTalkie
       objectReference: {fileID: 0}
+    - target: {fileID: 926503185368057278, guid: b4b3f61e9adb2634bb26f2577e3527c9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e5163005c52a03049890f278a2956264, type: 2}
     - target: {fileID: 4063644747365799663, guid: b4b3f61e9adb2634bb26f2577e3527c9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02e7a4cba7b3bf046a84efe90cca9dea, type: 2}
+      objectReference: {fileID: 2100000, guid: ec0a5370230d9c04ea9e1bd577d19711, type: 2}
     - target: {fileID: 5165785573981417725, guid: b4b3f61e9adb2634bb26f2577e3527c9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02e7a4cba7b3bf046a84efe90cca9dea, type: 2}
+      objectReference: {fileID: 2100000, guid: ec0a5370230d9c04ea9e1bd577d19711, type: 2}
     - target: {fileID: 6838524115758778031, guid: b4b3f61e9adb2634bb26f2577e3527c9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
