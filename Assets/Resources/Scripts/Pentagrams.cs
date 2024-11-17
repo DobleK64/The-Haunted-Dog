@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
@@ -8,6 +9,7 @@ public class Pentagrams : MonoBehaviour
     [SerializeField] private float amountP;
 
     [SerializeField] private PentagramScore pentagrams;
+    
 
     private void OnTriggerEnter(Collider collision)
     {
