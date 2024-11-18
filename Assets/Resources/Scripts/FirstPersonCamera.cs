@@ -32,6 +32,6 @@ public class FirstPersonCamera : MonoBehaviour
             transform.localEulerAngles = Vector3.right * mouseYRotation;
         }
 
-        playerTransform.Rotate(Vector3.up * mouseX); //es lo mismo que new vector3 (0,mousex, 0)" que esta en el script de  CC
+        playerTransform.Rotate(Vector3.up * mouseX); //es lo mismo que new vector3 (0,mousex, 0)" que esta en el script de  CCz
     }
 }
