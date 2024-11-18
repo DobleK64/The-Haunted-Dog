@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class PlayerMovementRB : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class PlayerMovementRB : MonoBehaviour
     private bool jumpPressed;
     private bool shiftPressed;
     private float currentSpeed;
-
+    public KeyCode downKey;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +38,16 @@ public class PlayerMovementRB : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             jumpPressed = true;
+        }
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            BoxCollider bc = rb.GetComponent<BoxCollider>();
+            bc.size = new Vector2(bc.size.x, bc.size.y / 2);          
+        }
+        else if (Input.GetKeyUp(KeyCode.G))
+        {
+            BoxCollider bc = rb.GetComponent<BoxCollider>();
+            bc.size = new Vector2(bc.size.x, bc.size.y * 2);
         }
         RotatePlayer();
     }
