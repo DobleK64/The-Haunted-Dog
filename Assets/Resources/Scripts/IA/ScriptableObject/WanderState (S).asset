@@ -18,5 +18,6 @@ MonoBehaviour:
       actionValue: 1
     nextState: {fileID: 11400000, guid: e22ed6c257bef644aad4351586fc82f8, type: 2}
     and: 0
-  maxTime: 0
-  radius: 0
+  range: 30
+  centrePoint: {x: 0, y: 0, z: 0}
+  blendParameter: Blend

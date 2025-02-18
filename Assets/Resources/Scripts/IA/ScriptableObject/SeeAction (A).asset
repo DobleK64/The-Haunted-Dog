@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae0b5fee320f274692acce627c2f26b, type: 3}
   m_Name: SeeAction (A)
   m_EditorClassIdentifier: 
-  radius: 15
+  radius: 30
+  radius2: 2
   targetMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 0
-  angle: 88
+    m_Bits: 256
+  angle: 163
