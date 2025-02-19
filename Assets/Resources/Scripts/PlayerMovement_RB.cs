@@ -8,13 +8,14 @@ public class PlayerMovementRB : MonoBehaviour
 {
     public float walkingspeed, runingSpeed, aceleration, rotationSpeed, JumpForce, sphereRadius; //*, gravityScale*; rotationSpeed o MouseSense
     public string groundName;
+    public AudioClip walkClip, runClip;
     //public LayerMask groundMask;
 
     private Rigidbody rb;
     private float x, z, mouseX; //input
     private bool jumpPressed;
     private bool shiftPressed;
-    private float currentSpeed;
+    private float currentSpeed, currentTime;
     public KeyCode downKey;
     // Start is called before the first frame update
     void Start()
@@ -50,6 +51,7 @@ public class PlayerMovementRB : MonoBehaviour
             bc.size = new Vector2(bc.size.x, bc.size.y * 2);
         }
         RotatePlayer();
+        
     }
 
     public void InterpolationSpeed()
@@ -57,10 +59,18 @@ public class PlayerMovementRB : MonoBehaviour
         if (shiftPressed)
         {
             currentSpeed = Mathf.Lerp(currentSpeed, runingSpeed, aceleration * Time.deltaTime);
+            if (currentTime > 0.5f)
+            {
+                AudioManager.instance.PlayAudio(runClip, "runSound");
+            }           
         }
         else if (x != 0 || z != 0)
         {
             currentSpeed = Mathf.Lerp(currentSpeed, walkingspeed, aceleration * Time.deltaTime);
+            if (currentTime > 1f)
+            {
+                AudioManager.instance.PlayAudio(walkClip, "walkSound");
+            }        
         }
         else 
         {
@@ -71,7 +81,7 @@ public class PlayerMovementRB : MonoBehaviour
     public float GetCurrentSpeed()
     {
         return currentSpeed;
-    }
+    }  
 
     void RotatePlayer()
     {
@@ -81,8 +91,7 @@ public class PlayerMovementRB : MonoBehaviour
     private void FixedUpdate()
     {
         ApplySpeed();
-        ApplyJumpForce();
-       
+        ApplyJumpForce();    
     }
 
     void ApplySpeed()

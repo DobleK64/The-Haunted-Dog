@@ -1,11 +1,10 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Unity.VisualScripting;
-using UnityEditor;
+//using System.Collections.Generic;
+//using System.Runtime.InteropServices.WindowsRuntime;
+//using Unity.VisualScripting;
+//using UnityEditor;
 using UnityEngine;
-using static UnityEngine.UI.GridLayoutGroup;
+//using static UnityEngine.UI.GridLayoutGroup;
 
 [CreateAssetMenu(fileName = "SeeAction (A)", menuName = "ScriptableObject/Action/SeeAction")]
 
@@ -21,14 +20,14 @@ public class SeeAction : Action
     //public AudioClip HelloClip;
     private float currentTime = 0;
     private float maxTime = 2;
-    private int valor = 1; 
+    
     public override bool Check(GameObject owner)
     {
         Collider[] rangeChecks = Physics.OverlapSphere(owner.transform.position, radius, targetMask);
         //RaycastHit[] hits = Physics.SphereCastAll(owner.transform.position, radius2, Vector3.up);
         currentTime += Time.deltaTime;
         Animator animator = owner.GetComponent<Animator>();
-
+        //int valor = Random.Range(-1, 2);
         if (rangeChecks.Length != 0)
         {
             GameObject target = owner.GetComponent<TargetReference>().target;
