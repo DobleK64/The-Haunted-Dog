@@ -45,20 +45,11 @@ public class SeeAction : Action
                     {
                         animator.SetBool("Attack3", true);
                     }
-                    //foreach (RaycastHit hit in hits)
-                    //{
-                    //    if (hit.collider.gameObject == target)
-                    //    {
-
-                    //        if (currentTime > maxTime)
-                    //        {
-                    //            animator.SetBool("Attack3", true);
-                    //            currentTime = 0;
-                    //        }
-                    //        return true;
-                    //    }
-                    //}
-                    //return false;
+                    else
+                    {
+                        animator.SetBool("Attack3", true);
+                    }
+                    
                     return true;
                 }
                 else
