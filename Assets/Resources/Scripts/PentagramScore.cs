@@ -24,7 +24,7 @@ public class PentagramScore : MonoBehaviour
     public void AddPentagrams(float addedP)
     {
         pentagrams += addedP;
-        if(pentagrams >= 2)
+        if(pentagrams >= 7)
         {
             SceneManager.LoadScene("Win");
             //audioManager.ClearAudios();
