@@ -15,11 +15,10 @@ public class SeeAction : Action
     public LayerMask obstructionMask;
     [Range(0, 360)]
     public float angle;
-    
 
     //public AudioClip HelloClip;
     private float currentTime = 0;
-    private float maxTime = 2;
+    //private float maxTime = 2;
     
     public override bool Check(GameObject owner)
     {
@@ -60,7 +59,7 @@ public class SeeAction : Action
         else
             return false;
     }
-public override void DrawGizmos(GameObject owner)
+    public override void DrawGizmos(GameObject owner)
     {
        
     }

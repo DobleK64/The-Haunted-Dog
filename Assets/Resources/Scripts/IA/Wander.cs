@@ -13,25 +13,22 @@ public class WanderState : State
     public string blendParameter;
 
     private float currentTime;
-
-    void Update()
-    {
-        currentTime += Time.deltaTime;
-    }
     public override State Run(GameObject owner)
     {
+        currentTime += Time.deltaTime;
         State nextState = ChecksActions(owner);
         NavMeshAgent navMeshAgent = owner.GetComponent<NavMeshAgent>();
         Animator animator = owner.GetComponent<Animator>();
-
-
-        if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
+        //NavMeshObstacle navMeshObstacle = owner.GetComponent<NavMeshObstacle>();
+        
+        if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance || currentTime > 7)
         {
             Vector3 point;
             if(RandomPoint(centrePoint, range, out point))
             {
                 navMeshAgent.SetDestination(point);
             }
+            currentTime = 0;
         }
         
         bool RandomPoint(Vector3 center, float range, out Vector3 result)
