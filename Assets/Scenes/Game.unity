@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11758,25 +11757,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 1578067031}
     m_Modifications:
     - target: {fileID: 1493441886587286884, guid: 471fe67a81cc94d4a8a5b380416fcb2f, type: 3}
-      propertyPath: opened
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1493441886587286884, guid: 471fe67a81cc94d4a8a5b380416fcb2f, type: 3}
       propertyPath: intText
       value: 
       objectReference: {fileID: 1331329914}
-    - target: {fileID: 4978346827605786632, guid: 471fe67a81cc94d4a8a5b380416fcb2f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.95581
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978346827605786632, guid: 471fe67a81cc94d4a8a5b380416fcb2f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.95581
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978346827605786632, guid: 471fe67a81cc94d4a8a5b380416fcb2f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.95581
-      objectReference: {fileID: 0}
     - target: {fileID: 4978346827605786632, guid: 471fe67a81cc94d4a8a5b380416fcb2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.2337427
@@ -14107,6 +14090,27 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951171579}
   m_Enabled: 1
+--- !u!65 &951171585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951171579}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20412172, y: 0.20412172, z: 1.5358174}
+  m_Center: {x: 0, y: 0, z: 0.6658479}
 --- !u!1 &959526376
 GameObject:
   m_ObjectHideFlags: 0
@@ -16661,6 +16665,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1274790271167323847, guid: ed8b7a6c652e7bd4bb38455f5203ad60, type: 3}
       insertIndex: -1
       addedObject: {fileID: 951171583}
+    - targetCorrespondingSourceObject: {fileID: 1274790271167323847, guid: ed8b7a6c652e7bd4bb38455f5203ad60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 951171585}
   m_SourcePrefab: {fileID: 100100000, guid: ed8b7a6c652e7bd4bb38455f5203ad60, type: 3}
 --- !u!1001 &1058337436
 PrefabInstance:
@@ -17667,6 +17674,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 64662855721051718, guid: df2f14ece3a3a0847aad4f1407b39c50, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4902035017096361616, guid: df2f14ece3a3a0847aad4f1407b39c50, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
