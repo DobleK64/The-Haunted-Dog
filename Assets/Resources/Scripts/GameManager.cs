@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     private float initialLife;
     
     private float life = 1f;
+    
     private int Pentagrams = 0;
 
     private void Awake()
@@ -38,6 +39,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         vidaVisual.fillAmount = life/1;
+        
     }
 
     //Getter
@@ -71,8 +73,7 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("Menu");
         }
     }
-
-   
+    
     public void ExitGame()
     {
         Debug.Log("Exit");

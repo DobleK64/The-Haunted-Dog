@@ -21,7 +21,7 @@ public class CruzPool : MonoBehaviour
             if (obj)
             {
                 obj.SetActive(true); // ya no esta disponible en la pool
-                Vector3 cruzpos = new Vector3(transform.position.x, transform.position.y * 2, transform.position.z * 1);
+                Vector3 cruzpos = new Vector3(transform.position.x, transform.position.y, transform.position.z * 1);
                 obj.transform.rotation = Quaternion.LookRotation(cruzpos);
                 obj.transform.position = cruzpos;
                 obj.GetComponent<Cruz>().SetDirection(transform.forward);
