@@ -17952,21 +17952,49 @@ PrefabInstance:
       propertyPath: DopplerLevel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3756606033102792652, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
+      propertyPath: m_Height
+      value: 1.5593474
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756606033102792652, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
+      propertyPath: m_Radius
+      value: 0.37602803
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756606033102792652, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0167961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756606033102792652, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
+      propertyPath: m_Center.y
+      value: 0.7786257
+      objectReference: {fileID: 0}
     - target: {fileID: 5162795384885133153, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
       propertyPath: m_Name
       value: Monstruo
       objectReference: {fileID: 0}
     - target: {fileID: 5543438148281492955, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5031381
+      objectReference: {fileID: 0}
+    - target: {fileID: 5543438148281492955, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5031381
+      objectReference: {fileID: 0}
+    - target: {fileID: 5543438148281492955, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5031381
+      objectReference: {fileID: 0}
+    - target: {fileID: 5543438148281492955, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.67
+      value: -41.68
       objectReference: {fileID: 0}
     - target: {fileID: 5543438148281492955, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.71
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 5543438148281492955, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.6
+      value: 32.61
       objectReference: {fileID: 0}
     - target: {fileID: 5543438148281492955, guid: 6bab2a5a108da454ca6c3a207752b977, type: 3}
       propertyPath: m_LocalRotation.w
