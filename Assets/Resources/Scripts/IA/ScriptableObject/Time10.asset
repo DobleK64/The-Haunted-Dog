@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 875225a10e60ddd40aca0a0cc28e0033, type: 3}
   m_Name: Time10
   m_EditorClassIdentifier: 
-  maxTime: 15
+  maxTime: 30

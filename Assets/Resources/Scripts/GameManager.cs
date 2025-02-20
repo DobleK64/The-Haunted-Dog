@@ -33,13 +33,11 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         initialLife = life;
-
     }
 
     void Update()
     {
         vidaVisual.fillAmount = life/1;
-        
     }
 
     //Getter
@@ -71,6 +69,7 @@ public class GameManager : MonoBehaviour
         if (life <= 0)
         {
             SceneManager.LoadScene("Game");
+            life = initialLife;
         }
     }
     
