@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
 
         if (life <= 0)
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("Game");
         }
     }
     
