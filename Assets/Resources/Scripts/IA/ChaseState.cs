@@ -22,3 +22,26 @@ public class ChaseState : State
         return nextState;
     }
 }
+//float distanceToTarget = Vector3.Distance(owner.transform.position, target.transform.position);
+//if ( distanceToTarget < 0.5f )
+//{
+//    int valor = Random.Range(0, 3);
+//    if(valor == 0)
+//    {
+//        animator.SetBool("Attack", true);
+//    }
+//    else if (valor ==1)
+//    {
+//        animator.SetBool("Attack2", true);
+//    }
+//    else
+//    {
+//        animator.SetBool("Attack3", true);
+//    }
+//}
+//else
+//{
+//    animator.SetBool("Attack", true);
+//    animator.SetBool("Attack2", true);
+//    animator.SetBool("Attack3", true);
+//}

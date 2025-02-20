@@ -26,6 +26,7 @@ public class CruzPool : MonoBehaviour
                 obj.transform.position = cruzpos;
                 obj.GetComponent<Cruz>().SetDirection(transform.forward);
             }
+            
         }
     }
 }

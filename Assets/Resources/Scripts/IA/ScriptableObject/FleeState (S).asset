@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: FleeState (S)
   m_EditorClassIdentifier: 
   stateParameters:
-  - actionParameters: []
+  - actionParameters:
+    - action: {fileID: 11400000, guid: 71adba42c7a072941aeb714f5686018b, type: 2}
+      actionValue: 1
     nextState: {fileID: 11400000, guid: 02766c41ab39d614a9c170ba9abaf73e, type: 2}
     and: 0

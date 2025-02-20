@@ -23,14 +23,12 @@ public class SeeAction : Action
     public override bool Check(GameObject owner)
     {
         Collider[] rangeChecks = Physics.OverlapSphere(owner.transform.position, radius, targetMask);
-        //RaycastHit[] hits = Physics.SphereCastAll(owner.transform.position, radius2, Vector3.up);
+        
         currentTime += Time.deltaTime;
-        Animator animator = owner.GetComponent<Animator>();
-        //int valor = Random.Range(-1, 2);
+        
         if (rangeChecks.Length != 0)
         {
             GameObject target = owner.GetComponent<TargetReference>().target;
-            //Transform target = rangeChecks[0].transform;
             Vector3 directionToTarget = (target.transform.position - owner.transform.position).normalized;
 
             if (Vector3.Angle(owner.transform.forward, directionToTarget) < angle / 2)    //para que se calcule a partir del centro
@@ -38,16 +36,7 @@ public class SeeAction : Action
                 float distanceToTarget = Vector3.Distance(owner.transform.position, target.transform.position);
 
                 if (!Physics.Raycast(owner.transform.position, directionToTarget, distanceToTarget, obstructionMask))
-                {
-                    if (distanceToTarget < 1)
-                    {
-                        animator.SetBool("Attack3", true);
-                    }
-                    else
-                    {
-                        animator.SetBool("Attack3", true);
-                    }
-                    
+                {                 
                     return true;
                 }
                 else
