@@ -34,7 +34,7 @@ public class PlayerMovementRB : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentTime = Time.deltaTime;
+        currentTime += Time.deltaTime;
         x = Input.GetAxisRaw("Horizontal");
         z = Input.GetAxisRaw("Vertical");
         mouseX = Input.GetAxis("Mouse X");
@@ -64,12 +64,13 @@ public class PlayerMovementRB : MonoBehaviour
 
     public void InterpolationSpeed()
     {
-        if (shiftPressed)
+        if (shiftPressed && currentStamina > 0)
         {
             currentSpeed = Mathf.Lerp(currentSpeed, runingSpeed, aceleration * Time.deltaTime);
             if (currentTime > 0.5f)
             {
                 AudioManager.instance.PlayAudio(runClip, "runSound");
+                currentTime = 0;
             }           
         }
         else if (x != 0 || z != 0)
@@ -78,6 +79,7 @@ public class PlayerMovementRB : MonoBehaviour
             if (currentTime > 1f)
             {
                 AudioManager.instance.PlayAudio(walkClip, "walkSound");
+                currentTime = 0;
             }        
         }
         else 
@@ -87,6 +89,11 @@ public class PlayerMovementRB : MonoBehaviour
     }
     void HandleStamina()
     {
+        // Si la estamina está vacía, no permitir correr
+        if (currentStamina <= 0)
+        {
+            shiftPressed = false;  
+        }
         if (shiftPressed && currentStamina > 0)
         {
             // Si se está presionando Shift, gastar estamina
@@ -105,11 +112,6 @@ public class PlayerMovementRB : MonoBehaviour
         currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
         
 
-        // Si la estamina está vacía, no permitir correr
-        if (currentStamina == 0)
-        {
-            shiftPressed = false;   
-        }
     }
     public float GetCurrentSpeed()
     {

@@ -34,20 +34,20 @@ public class Door : MonoBehaviour
             intText.SetActive(false);
         }
     }
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    PerroMostruo pm = other.gameObject.GetComponent<PerroMostruo>();
-    //    if (pm != null)
-    //    {
-    //        door_closed.SetActive(false);
-    //        door_opened.SetActive(true);
-    //        intText.SetActive(false);
-    //        //open.Play();
-    //        StartCoroutine(repeat());
-    //        opened = true;
+    private void OnTriggerEnter(Collider other)
+    {
+        PerroMostruo pm = other.gameObject.GetComponent<PerroMostruo>();
+        if (pm != null)
+        {
+            door_closed.SetActive(false);
+            door_opened.SetActive(true);
+            intText.SetActive(false);
+            //open.Play();
+            StartCoroutine(repeat());
+            opened = true;
 
-    //    }
-    //}
+        }
+    }
 
     IEnumerator repeat()
     {

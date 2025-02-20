@@ -9,13 +9,9 @@ public class CruzAction : Action
     {
         GameObject target = owner.GetComponent<TargetReference>().target;
 
-        // Verificar si el tag del target es "Cruz"
-        //if (target.CompareTag("Cruz"))
-        //{
-        //    return true;  // El target tiene el tag "Cruz"
-        //}
+        
 
-        return false;  // El target no tiene el tag "Cruz"
+        return owner.GetComponent<PerroMostruo>().cruz;  // El target no tiene el tag "Cruz"
     }
 
     public override void DrawGizmos(GameObject owner)
