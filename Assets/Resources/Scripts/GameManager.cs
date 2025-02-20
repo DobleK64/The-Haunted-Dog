@@ -8,11 +8,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     
-    public Image vidaVisual;
+    public Image vidaVisual, staminaVisual;
     public enum GameManagerVariables { Pentagrams }
     private float initialLife;
     
-    private float life = 1f;
+    private float life = 1f; 
+    private float stamina = 100f;
     
     private int Pentagrams = 0;
 
@@ -38,6 +39,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         vidaVisual.fillAmount = life/1;
+        staminaVisual.fillAmount = stamina / 100;
     }
 
     //Getter
@@ -72,7 +74,15 @@ public class GameManager : MonoBehaviour
             life = initialLife;
         }
     }
-    
+    public float GetStamina()
+    {
+        return stamina;
+    }
+    public void AddStamina(float staminaA)
+    {
+        stamina+= staminaA;
+    }
+
     public void ExitGame()
     {
         Debug.Log("Exit");

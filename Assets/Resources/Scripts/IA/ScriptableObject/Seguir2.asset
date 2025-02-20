@@ -21,3 +21,6 @@ MonoBehaviour:
     nextState: {fileID: 11400000, guid: 02766c41ab39d614a9c170ba9abaf73e, type: 2}
     and: 1
   blendParameter: Blend
+  AttackClip: {fileID: 8300000, guid: e0a094ac7a41a964585fac93778793dd, type: 3}
+  AttackClip2: {fileID: 8300000, guid: 93a3ae67bd94e9744af31e29735e4641, type: 3}
+  AttackClip3: {fileID: 0}

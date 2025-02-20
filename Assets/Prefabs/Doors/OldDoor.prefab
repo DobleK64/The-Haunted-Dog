@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6224478659534972958}
   - component: {fileID: 6167179589183405981}
   - component: {fileID: 1265077162509373209}
+  - component: {fileID: 7250807288954947319}
   m_Layer: 0
   m_Name: OldDoor
   m_TagString: Untagged
@@ -51,8 +52,8 @@ MonoBehaviour:
   door_closed: {fileID: 4016746733049310009}
   door_opened: {fileID: 6017162112369735767}
   intText: {fileID: 0}
-  open: {fileID: 0}
-  close: {fileID: 0}
+  open: {fileID: 5950284346467140037, guid: 3aa841e851ce0214cb9d4be20ea32253, type: 3}
+  close: {fileID: 413932543963606476, guid: 7c223364eaab9454081b50775c0886e8, type: 3}
   opened: 0
 --- !u!54 &1265077162509373209
 Rigidbody:
@@ -81,6 +82,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!65 &7250807288954947319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2765071845304822174}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &895564457522253512
 PrefabInstance:
   m_ObjectHideFlags: 0

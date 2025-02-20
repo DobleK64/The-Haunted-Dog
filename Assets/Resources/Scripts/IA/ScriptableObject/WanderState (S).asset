@@ -19,7 +19,7 @@ MonoBehaviour:
     nextState: {fileID: 11400000, guid: e22ed6c257bef644aad4351586fc82f8, type: 2}
     and: 0
   - actionParameters:
-    - action: {fileID: 11400000, guid: bb5f527b3d52be94999cd99ec920fe61, type: 2}
+    - action: {fileID: 11400000, guid: 93eef0f7175e2414fa250b8505f75e37, type: 2}
       actionValue: 1
     nextState: {fileID: 11400000, guid: 12ddf53c2764f7d479a11ef41ac0a8fc, type: 2}
     and: 0

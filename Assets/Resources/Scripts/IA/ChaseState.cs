@@ -7,10 +7,11 @@ using UnityEngine.AI;
 public class ChaseState : State
 {
     public string blendParameter;
-
+    public AudioClip AttackClip, AttackClip2, AttackClip3;
+    private float currentTime;
     public override State Run(GameObject owner)
     {
-
+        currentTime += Time.deltaTime;
         State nextState = ChecksActions(owner);
 
         NavMeshAgent navMeshAgent = owner.GetComponent<NavMeshAgent>();
@@ -21,21 +22,38 @@ public class ChaseState : State
         Vector3 directionToTarget = (target.transform.position - owner.transform.position).normalized;
         float distanceToTarget = Vector3.Distance(owner.transform.position, target.transform.position);
          
-        if (distanceToTarget <= 2.9f)
+        if (distanceToTarget <= 2.5f)
         {
             
             int valor = Random.Range(0, 3);
             if (valor == 0)
             {
                 animator.SetBool("Attack", true);
+                //AudioManager.instance.PlayAudio(AttackClip, "AttackSound");
+                if (currentTime >= 3)
+                {
+                    AudioManager.instance.PlayAudio(AttackClip, "AttackSound");
+                    currentTime = 0;
+                }
+                
             }
             else if (valor == 1)
             {
                 animator.SetBool("Attack2", true);
+                if (currentTime >= 3)
+                {
+                    AudioManager.instance.PlayAudio(AttackClip2, "AttackSound");
+                    currentTime = 0;
+                }
             }
             else
             {
                 animator.SetBool("Attack3", true);
+                if (currentTime >= 3)
+                {
+                    AudioManager.instance.PlayAudio(AttackClip3, "AttackSound");
+                    currentTime = 0;
+                }
             }
         }
         else
@@ -45,6 +63,7 @@ public class ChaseState : State
             animator.SetBool("Attack3", false);
         }
 
+       
         return nextState;
     }
 }
