@@ -1,20 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Drawing;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
-
+using UnityEngine.UI;
 public class PlayerMovementRB : MonoBehaviour
 {
     public float walkingspeed, runingSpeed, aceleration, rotationSpeed, JumpForce, sphereRadius; //*, gravityScale*; rotationSpeed o MouseSense
     public string groundName;
+    public AudioClip walkClip, runClip;
     //public LayerMask groundMask;
+    public float maxStamina = 100f;  // Máxima cantidad de estamina
+    public float currentStamina;     // Estamina actual
+    public float staminaDrainRate = 10f;  // Cuánto se gasta por segundo al correr
+    public float staminaRechargeRate = 5f; // Cuánto se recarga por segundo cuando no se corre
+    public Image staminaVisual;
 
     private Rigidbody rb;
     private float x, z, mouseX; //input
     private bool jumpPressed;
     private bool shiftPressed;
-    private float currentSpeed;
+    private float currentSpeed, currentTime;
     public KeyCode downKey;
     // Start is called before the first frame update
     void Start()
@@ -27,15 +34,17 @@ public class PlayerMovementRB : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        currentTime = Time.deltaTime;
         x = Input.GetAxisRaw("Horizontal");
         z = Input.GetAxisRaw("Vertical");
         mouseX = Input.GetAxis("Mouse X");
         shiftPressed = Input.GetKey(KeyCode.LeftShift);
 
         InterpolationSpeed();
-
+        HandleStamina();
+        staminaVisual.fillAmount = currentStamina / 100;
         //jumpPressed = Input.GetAxis("Jump");
-        if(Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             jumpPressed = true;
         }
@@ -50,6 +59,7 @@ public class PlayerMovementRB : MonoBehaviour
             bc.size = new Vector2(bc.size.x, bc.size.y * 2);
         }
         RotatePlayer();
+        
     }
 
     public void InterpolationSpeed()
@@ -57,21 +67,54 @@ public class PlayerMovementRB : MonoBehaviour
         if (shiftPressed)
         {
             currentSpeed = Mathf.Lerp(currentSpeed, runingSpeed, aceleration * Time.deltaTime);
+            if (currentTime > 0.5f)
+            {
+                AudioManager.instance.PlayAudio(runClip, "runSound");
+            }           
         }
         else if (x != 0 || z != 0)
         {
             currentSpeed = Mathf.Lerp(currentSpeed, walkingspeed, aceleration * Time.deltaTime);
+            if (currentTime > 1f)
+            {
+                AudioManager.instance.PlayAudio(walkClip, "walkSound");
+            }        
         }
         else 
         {
             currentSpeed = Mathf.Lerp(currentSpeed, 0, aceleration * Time.deltaTime);
         }
     }
+    void HandleStamina()
+    {
+        if (shiftPressed && currentStamina > 0)
+        {
+            // Si se está presionando Shift, gastar estamina
+            
+            currentStamina -= staminaDrainRate * Time.deltaTime;
+            
+        }
+        else if (!shiftPressed && currentStamina < maxStamina)
+        {
+            // Si no se está presionando Shift, recargar estamina
+            currentStamina += staminaRechargeRate * Time.deltaTime;
+            
+        }
 
+        // Limitar la estamina para que no supere el valor máximo
+        currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
+        
+
+        // Si la estamina está vacía, no permitir correr
+        if (currentStamina == 0)
+        {
+            shiftPressed = false;   
+        }
+    }
     public float GetCurrentSpeed()
     {
         return currentSpeed;
-    }
+    }  
 
     void RotatePlayer()
     {
@@ -81,8 +124,7 @@ public class PlayerMovementRB : MonoBehaviour
     private void FixedUpdate()
     {
         ApplySpeed();
-        ApplyJumpForce();
-       
+        ApplyJumpForce();    
     }
 
     void ApplySpeed()
@@ -118,7 +160,7 @@ public class PlayerMovementRB : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.green;
+        //Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(new Vector3(transform.position.x, transform.position.y - transform.localScale.y / 2, transform.position.z), sphereRadius);
     }
 }

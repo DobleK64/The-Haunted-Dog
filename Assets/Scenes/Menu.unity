@@ -1381,14 +1381,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1897715134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0555dbfbcb6dc4d4ba009f76f1f1f6c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b59cb1bdc3e33544b4e9f07739695fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: 3b7caa13a9f1c034a91ab04431fb9b90, type: 3}
   isLoop: 1
   playOnGameStart: 1
   volume: 1
-  gameObjectName: menuBGMusic
+  gameObjectName: menu
 --- !u!4 &1897715136
 Transform:
   m_ObjectHideFlags: 0
