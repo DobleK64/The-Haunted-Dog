@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     
-    public Image vidaVisual, staminaVisual;
+    
     public enum GameManagerVariables { Pentagrams }
     private float initialLife;
     
@@ -38,8 +38,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        vidaVisual.fillAmount = life/1;
-        staminaVisual.fillAmount = stamina / 100;
+        
     }
 
     //Getter

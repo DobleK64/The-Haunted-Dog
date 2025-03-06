@@ -15,7 +15,8 @@ public class PlayerMovementRB : MonoBehaviour
     public float currentStamina;     // Estamina actual
     public float staminaDrainRate = 10f;  // Cuánto se gasta por segundo al correr
     public float staminaRechargeRate = 5f; // Cuánto se recarga por segundo cuando no se corre
-    
+    public Image vidaVisual, staminaVisual;
+
     private Rigidbody rb;
     private float x, z, mouseX; //input
     private bool jumpPressed;
@@ -41,7 +42,10 @@ public class PlayerMovementRB : MonoBehaviour
 
         InterpolationSpeed();
         HandleStamina();
-        
+
+        vidaVisual.fillAmount = GameManager.instance.GetLifes() / 1;
+        staminaVisual.fillAmount = currentStamina / 100;
+
         //jumpPressed = Input.GetAxis("Jump");
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
@@ -109,7 +113,7 @@ public class PlayerMovementRB : MonoBehaviour
 
         // Limitar la estamina para que no supere el valor máximo
         currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
-        GameManager.instance.AddStamina(currentStamina);
+        GameManager.instance.AddStamina(currentStamina);        
     }
     public float GetCurrentSpeed()
     {
