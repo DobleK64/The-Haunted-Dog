@@ -21,7 +21,7 @@ public class WanderState : State
         Animator animator = owner.GetComponent<Animator>();
         //NavMeshObstacle navMeshObstacle = owner.GetComponent<NavMeshObstacle>();
         
-        if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance || currentTime > 7)
+        if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance || currentTime > 5)
         {
             Vector3 point;
             if(RandomPoint(centrePoint, range, out point))

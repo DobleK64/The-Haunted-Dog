@@ -113,7 +113,7 @@ public class PlayerMovementRB : MonoBehaviour
 
         // Limitar la estamina para que no supere el valor máximo
         currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
-        GameManager.instance.AddStamina(currentStamina);        
+              
     }
     public float GetCurrentSpeed()
     {

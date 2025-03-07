@@ -9,6 +9,7 @@ public class ChaseState : State
     public string blendParameter;
     public AudioClip AttackClip, AttackClip2, AttackClip3;
     private float currentTime;
+    //private int index = 1;
     public override State Run(GameObject owner)
     {
         currentTime += Time.deltaTime;
@@ -21,10 +22,15 @@ public class ChaseState : State
         animator.SetFloat(blendParameter, navMeshAgent.velocity.magnitude / navMeshAgent.speed); //animacion gradual que depende de la velocidad
         Vector3 directionToTarget = (target.transform.position - owner.transform.position).normalized;
         float distanceToTarget = Vector3.Distance(owner.transform.position, target.transform.position);
+
+        //if (index < GameManager.instance.GetPentagrams())
+        //{
+        //    navMeshAgent.speed += 0.2f;
+        //    index++;
+        //}
          
         if (distanceToTarget <= 2.5f)
-        {
-            
+        {            
             int valor = Random.Range(0, 3);
             if (valor == 0)
             {
@@ -61,9 +67,8 @@ public class ChaseState : State
             animator.SetBool("Attack", false);
             animator.SetBool("Attack2", false);
             animator.SetBool("Attack3", false);
-        }
-
-       
+        } 
+        
         return nextState;
     }
 }

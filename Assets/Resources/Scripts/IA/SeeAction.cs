@@ -10,7 +10,7 @@ using UnityEngine;
 
 public class SeeAction : Action
 {
-    public float radius, radius2;
+    public float radius;
     public LayerMask targetMask;
     public LayerMask obstructionMask;
     [Range(0, 360)]

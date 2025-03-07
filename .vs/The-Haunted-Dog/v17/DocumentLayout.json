@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|c:\\users\\alumno\\documents\\github\\the-haunted-dog\\assets\\resources\\scripts\\buttonfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\buttonfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\assets\\resources\\scripts\\ia\\cruzaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\ia\\cruzaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\assets\\resources\\scripts\\ia\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\ia\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\assets\\resources\\scripts\\rlifes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\rlifes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\assets\\resources\\scripts\\ia\\seeaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\ia\\seeaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\assets\\textmesh pro\\examples \u0026 extras\\scripts\\dropdownsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\textmesh pro\\examples \u0026 extras\\scripts\\dropdownsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\assets\\resources\\scripts\\ia\\chasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\ia\\chasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ruana\\Documents\\Programaci-n\\DEIM\\Assets\\Scripts\\IA\\HearAction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|c:\\users\\alumno\\documents\\github\\the-haunted-dog\\assets\\resources\\scripts\\playermovement_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\playermovement_rb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\assets\\resources\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|c:\\users\\alumno\\documents\\github\\the-haunted-dog\\assets\\resources\\scripts\\ia\\wander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\ia\\wander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|c:\\users\\alumno\\documents\\github\\the-haunted-dog\\assets\\resources\\scripts\\ia\\timepassedaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\ia\\timepassedaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\assets\\resources\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDD1937B-76AC-D69D-4BCE-1F898E447657}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ButtonFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\ButtonFunctions.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\ButtonFunctions.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\ButtonFunctions.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\ButtonFunctions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:53:35.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TimePassedAction.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\TimePassedAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\IA\\TimePassedAction.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\TimePassedAction.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\IA\\TimePassedAction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:23:35.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Wander.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\Wander.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\IA\\Wander.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\Wander.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\IA\\Wander.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:09:26.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Door.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\Door.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Door.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:08:37.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerMovement_RB.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\PlayerMovement_RB.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\PlayerMovement_RB.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\PlayerMovement_RB.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\PlayerMovement_RB.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAkwHMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:08:37.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HearAction.cs",
+              "DocumentMoniker": "C:\\Users\\ruana\\Documents\\Programaci-n\\DEIM\\Assets\\Scripts\\IA\\HearAction.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\ruana\\Documents\\Programaci-n\\DEIM\\Assets\\Scripts\\IA\\HearAction.cs",
+              "ToolTip": "C:\\Users\\ruana\\Documents\\Programaci-n\\DEIM\\Assets\\Scripts\\IA\\HearAction.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\ruana\\Documents\\Programaci-n\\DEIM\\Assets\\Scripts\\IA\\HearAction.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T20:27:52.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChaseState.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\ChaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\IA\\ChaseState.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\ChaseState.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\IA\\ChaseState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:08:37.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DropdownSample.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\TextMesh Pro\\Examples \u0026 Extras\\Scripts\\DropdownSample.cs",
+              "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Examples \u0026 Extras\\Scripts\\DropdownSample.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\TextMesh Pro\\Examples \u0026 Extras\\Scripts\\DropdownSample.cs",
+              "RelativeToolTip": "Assets\\TextMesh Pro\\Examples \u0026 Extras\\Scripts\\DropdownSample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:08:37.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeeAction.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\SeeAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\IA\\SeeAction.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\SeeAction.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\IA\\SeeAction.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:08:37.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RLifes.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\RLifes.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\RLifes.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\RLifes.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\RLifes.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:08:37.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\StateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\IA\\StateMachine.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\StateMachine.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\IA\\StateMachine.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:08:37.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CruzAction.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\CruzAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\IA\\CruzAction.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\IA\\CruzAction.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\IA\\CruzAction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:08:37.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\The-Haunted-Dog\\Assets\\Resources\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAUwBYAAAAWAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-03-07T08:08:37.752Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
