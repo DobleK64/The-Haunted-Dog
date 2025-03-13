@@ -17247,6 +17247,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8631173568779838225, guid: ed8b7a6c652e7bd4bb38455f5203ad60, type: 3}
+      propertyPath: runClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f3e71802ed306e4fba08d313a2b13ff, type: 3}
+    - target: {fileID: 8631173568779838225, guid: ed8b7a6c652e7bd4bb38455f5203ad60, type: 3}
+      propertyPath: walkClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f3e71802ed306e4fba08d313a2b13ff, type: 3}
+    - target: {fileID: 8631173568779838225, guid: ed8b7a6c652e7bd4bb38455f5203ad60, type: 3}
       propertyPath: JumpForce
       value: 250
       objectReference: {fileID: 0}
